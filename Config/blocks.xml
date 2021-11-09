@@ -1,0 +1,183 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='porchLight01']">
+		<property name="LightType" value="Point"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="135"/>
+	</append>
+	<append xpath="/blocks/block[@name='porchLight04']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="-0.25,-0.15,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="135"/>
+	</append>
+	<append xpath="/blocks/block[@name='porchLight04Brass']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="-0.25,-0.15,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="135"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ceilingLight01']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0,0.4,0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.05"/>
+		<property name="LightIntensity" value="1.05"/>
+		<property name="LightOrientation" value="0,0,0"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingLight02']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.05"/>
+		<property name="LightIntensity" value="0.95"/>
+		<property name="LightSpotAngle" value="160"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingLight02Brass']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.05"/>
+		<property name="LightIntensity" value="1.05"/>
+		<property name="LightSpotAngle" value="160"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingLight04']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightSpotAngle" value="115"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingLight05']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="115"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingLight05Brass']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="115"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='recessedLight']">
+		<!-- looks pretty ok vanilla! -->
+	</append>
+	<append xpath="/blocks/block[@name='wallLight01']">
+		<property name="LightType" value="Spot"/>
+		<property name="LightPosition" value="0,0,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+		<property name="LightSpotAngle" value="95"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='ceilingLight07']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0,.35,0"/>
+		<property name="LightOrientation" value="0,90,0"/>
+		<property name="LightShadowBias" value="0.0125"/>
+		<property name="LightShadowNearPlane" value="0.025"/>
+		<property name="LightRange" value="12"/>
+		<property name="LightIntensity" value="0.85"/>
+		<property name="LightShadowStrength" value="1.0"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='fluorescentLight']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0,-.395,0"/>
+		<property name="LightOrientation" value="90,90,0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.005"/>
+		<property name="LightRange" value="16"/>
+		<property name="LightIntensity" value="0.95"/>
+		<property name="LightShadowStrength" value="1.0"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='trackLight']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0,0.3,0"/>
+		<property name="LightOrientation" value="90,0,0"/>
+	</append>
+	<append xpath="/blocks/block[@name='industrialLight01']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0,0.06,-.2"/>
+		<property name="LightOrientation" value="60,0,0"/>
+		<property name="LightShadowBias" value="0.035"/>
+		<property name="LightShadowNearPlane" value="0.015"/>
+	</append>
+	<!--
+	<append xpath="/blocks/block[@name='sconce1Light']">
+	</append>
+	-->
+	<append xpath="/blocks/block[@name='industrialLight02']">
+		<property name="LightOrientation" value="0,0,0"/>
+	</append>
+	<append xpath="/blocks/block[@name='industrialLight02Red']">
+		<property name="LightOrientation" value="0,0,0"/>
+		<property name="RuntimeSwitch" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='ceilingFanLight']">
+		<property name="LightType" value="Point"/>
+		<property name="LightOrientation" value="0,0,0"/>
+		<property name="LightRange" value="9"/>
+		<property name="LightIntensity" value="1.35"/>
+		<property name="LightShadowStrength" value="1.0"/>
+		<property name="LightShadowBias" value="0.65"/>
+		<property name="LightPosition" value="0,.06,0"/>
+		<property name="LightShadowNearPlane" value="0.05"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='chandelierLight']">
+		<property name="LightOrientation" value="90,0,0"/>
+	</append>
+	<!--
+	<append xpath="/blocks/block[@name='candelabraLight']">
+	</append>
+	<append xpath="/blocks/block[@name='signExitLight']">
+	</append>
+	<append xpath="/blocks/block[@name='roadBarricadeLight']">
+	</append>
+	-->
+	<append xpath="/blocks/block[@name='deskLampLight']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="0.3,-0.11,0"/>
+		<property name="LightRange" value="5"/>
+		<property name="LightIntensity" value="0.75"/>
+		<property name="LightShadowStrength" value="1.0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.175"/>
+	</append>
+	<append xpath="/blocks/block[@name='tableLampLight']">
+		<property name="LightType" value="Point"/>
+		<!-- <property name="LightOrientation" value="0,0,-180"/> -->
+		<property name="LightPosition" value="0,0.25,0.3"/>
+		<property name="LightRange" value="5"/>
+		<property name="LightIntensity" value="0.75"/>
+		<property name="LightShadowStrength" value="1.0"/>
+		<property name="LightShadowBias" value="0.025"/>
+		<property name="LightShadowNearPlane" value="0.175"/>
+	</append>
+	<append xpath="/blocks/block[@name='tableLampTippedOverLight']">
+		<property name="LightType" value="Point"/>
+		<property name="LightPosition" value="-0.05,0.2,0.2"/>
+		<property name="LightIntensity" value="0.95"/>
+		<property name="LightShadowStrength" value="1.0"/>
+		<property name="LightShadowBias" value="0.05"/>
+		<property name="LightShadowNearPlane" value="0.125"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='workLightPOI']">
+		<property name="LightOrientation" value="0,0,0"/>
+	</append>
+
+	<!--
+	<append xpath="/blocks/block[@name='streetLight01']">
+	</append>
+	<append xpath="/blocks/block[@name='streetLightClassic']">
+	</append>
+	<append xpath="/blocks/block[@name='spotlightNailedDownPOI']">
+	</append>
+	-->
+
+</configs>
