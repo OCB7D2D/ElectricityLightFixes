@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="ElectricityLightFixes" />
-		<Description value="Some light fixes (mostly shadows and positions)" />
+		<Description value="Some light fixes (mostly shadows and positions; requires ElectricityLampsPOI)" />
 		<Website value="https://github.com/OCB7D2D/ElectricityLightFixes" />
 		<Author value="ocbMaurice" />
 		<Version value="0.1.0" compat="A20"/>
